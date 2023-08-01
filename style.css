@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+article {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.leaf {
+  width: 250px;
+  height: 250px;
+  /*border-radius: 0 100% 0 100%; - Reverse Direction of Leaf*/ 
+  border-radius: 100% 0 100% 0;
+  -webkit-border-radius: 100 0 100% 0;
+  -moz-border-radius: 100 0 100% 0;
+  -ms-border-radius: 100 0 100% 0;
+  -o-border-radius: 100 0 100% 0;
+  /*background-image: linear-gradient(to right, rgb(184, 244, 146), rgb(51, 139,147));
+  */background-image: linear-gradient(to right, #b8f492 45%, #338b93);
+}
